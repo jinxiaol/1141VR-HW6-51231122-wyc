@@ -342,8 +342,25 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &357339900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357339896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26477e03cd21c0946b5c0fe3213d5611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PokeballThrower
+  throwForceZ: -3000
+  throwForceY: 1000
+  delayTime: 1
+  catchEffectPrefab: {fileID: 6175561953246247623, guid: af93f64d846a810488a6a292a5128636, type: 3}
+  catchSound: {fileID: 0}
 --- !u!1001 &554055024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1443,6 +1460,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a54fc55980011854f975dc43b34b11a5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 357339898}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a54fc55980011854f975dc43b34b11a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 357339900}
   m_SourcePrefab: {fileID: 100100000, guid: a54fc55980011854f975dc43b34b11a5, type: 3}
 --- !u!1001 &2082199048
 PrefabInstance:
